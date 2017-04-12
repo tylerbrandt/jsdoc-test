@@ -13,6 +13,8 @@
 <a name="module_index.Foo"></a>
 
 ### index.Foo(fooData)
+When referencing a local typedef by "name" it doesn't link.
+
 **Kind**: static method of <code>[index](#module_index)</code>  
 
 | Param | Type |
@@ -22,6 +24,8 @@
 <a name="module_index.Bar"></a>
 
 ### index.Bar(barData)
+When referencing a local typedef by "module:" it links.
+
 **Kind**: static method of <code>[index](#module_index)</code>  
 
 | Param | Type |
